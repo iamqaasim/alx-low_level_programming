@@ -2,13 +2,15 @@
 
 #include <time.h>
 
-/* more headers goes there
+/* 
+* more headers goes there
 *
 *  betty style doc for function main goes there 
 *
 *  This program will assign a random number to the variable n each time it is executed
 *
-*  The variable n will store a different value every time you will run this program */
+*  The variable n will store a different value every time you will run this program 
+*/
 
 int main(void)
 
