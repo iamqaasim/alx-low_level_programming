@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
- * main print numbers of base 16
+/**
+ * main - print numbers of base 16
  *
- * return 0 for success
+ * Return: 0 for success
  */
 
-int main (void)
+int main(void)
 {
 	int i = '0';
 
