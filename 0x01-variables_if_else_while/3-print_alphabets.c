@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main prints lowercase alphabet then uppercase alphabet
+/**
+ * main - prints lowercase alphabet then uppercase alphabet
  *
- * return 0 if success
+ * Return: 0 if success
  */
 
 int main(void)
@@ -22,5 +22,5 @@ int main(void)
 		ch2++;
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
