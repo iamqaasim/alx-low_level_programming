@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-/*
- * main print numbers 0-9 without using char or printf/puts..etc
+/**
+ * main - print numbers 0-9 without using char or printf/puts..etc
  *
- * return 0 for success
+ * Return: 0 for success
  */
 
-int main (void)
+int main(void)
 {
 	int i = '0';
 
