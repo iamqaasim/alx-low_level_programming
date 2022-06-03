@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /*
- * main print alphabet in reverse
+ * main - print alphabet in reverse
  *
- * retrun 0 for success
+ * Retrun: 0 for success
  */
 
-int main (void)
+int main(void)
 {
 	char ch = 'z';
 
@@ -15,6 +15,6 @@ int main (void)
 		purchar(ch);
 		ch--;
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
