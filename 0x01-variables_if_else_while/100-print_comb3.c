@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print all possible double digit numbers 
+ * main - print all possible double digit numbers
  *
  * Return: 0 for success
  */
@@ -15,7 +15,7 @@ int main(void)
 	{
 		while (j <= '9')
 		{
-			if (!(i < j || i==j))
+			if (!(i > j || i == j))
 			{
 				putchar(i);
 				putchar(j);
