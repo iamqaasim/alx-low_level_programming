@@ -11,7 +11,7 @@
 *
 * Var n will store a different value every time you will run this program
 *
-* Return: 0 
+* Return: 0
 */
 
 int main(void)
