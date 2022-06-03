@@ -33,5 +33,4 @@ int main(void)
 		print("is zero \n");
 	}
 	return (0);
-
 }
