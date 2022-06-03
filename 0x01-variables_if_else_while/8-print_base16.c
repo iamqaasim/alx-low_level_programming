@@ -9,16 +9,17 @@
 int main(void)
 {
 	int i = '0';
+	int j = 'a';
 
 	while (i <= '9')
 	{
 		putchar (i);
 		i++;
 	}
-	while (i <= 'f')
+	while (j <= 'f')
 	{
-		putchar (i);
-		i++;
+		putchar (j);
+		j++;
 	}
 	putchar('\n');
 	return (0);
