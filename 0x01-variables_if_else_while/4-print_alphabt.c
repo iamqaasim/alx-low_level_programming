@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main print alphabet except q and e
+/**
+ * main - print alphabet except q and e
  *
- * return 0 for success
+ * Return: 0 for success
  */
 
 int main (void)
@@ -16,7 +16,7 @@ int main (void)
 		{
 			putchar(ch);
 		}
-		ch++
+		ch++;
 	}
 	putchar ('\n');
 	return (0);
