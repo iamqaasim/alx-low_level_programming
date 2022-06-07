@@ -5,15 +5,15 @@
  * Return: 0 for success
  */
 
-int main(void)
+int main()
 {
-	char c = "_putchar";
-	int i;
-
-	for(i = 0; i < 9; i++)
-	{
-		printf(c[i]);
-	}
-	printf("\n");
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");
+	_putchar("a");
+	_putchar("r");
 	return (0);
 }
