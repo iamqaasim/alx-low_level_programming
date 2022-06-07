@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	char ch = "_putchar";
+	char c[] = "_putchar";
 	int i;
 
 	for(i =0; i < 9; i++)
 	{
-		_putchar(ch[i]);
+		_putchar(c[i]);
 	}
 	printf("\n");
 	return (0);
