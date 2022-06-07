@@ -1,5 +1,3 @@
-#!/bin/bash
-#include <stdio.h>
 #include <main.h>
 /**
  * main - prints _putchar
@@ -9,6 +7,13 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char ch = "_putchar";
+	int i;
+
+	for(i =0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
+	printf("\n");
 	return (0);
 }
