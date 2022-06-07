@@ -8,13 +8,6 @@
 
 int main(void)
 {
-	char ch = 'a';
-	int i;
-	
-	for (i = 0; i <= 'z'; i++)
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
+	print_alphabet();
 	return (0);
 }
