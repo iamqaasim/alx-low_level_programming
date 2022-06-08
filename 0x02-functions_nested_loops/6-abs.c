@@ -6,8 +6,9 @@
  * Return: 0 for success
  */
 
-int _abs(int a)
+int _abs(int)
 {
+	int a = int;
 	if (a < 0)
 	{
 		a = a * -1;
@@ -18,5 +19,4 @@ int _abs(int a)
 	{
 		_putchar(a);
 	}
-	return (0);
 }
