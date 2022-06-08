@@ -8,15 +8,17 @@
 
 int _abs(int)
 }
-	if (int < 0)
+	int value = int;
+	
+	if (value < 0)
 	{
-		int value = int * -1
+		value = value * -1
 		
 		_putchar(value);
 	}
 	else
 	{
-		_putchar(int);
+		_putchar(value);
 	}
 	return (0);
 }
