@@ -6,19 +6,17 @@
  * Return: 0 for success
  */
 
-int _abs(int)
-}
-	int value = int;
-	
-	if (value < 0)
+int _abs(int a)
+{
+	if (a < 0)
 	{
-		value = value * -1
+		a = a * -1
 		
-		_putchar(value);
+		_putchar(a);
 	}
 	else
 	{
-		_putchar(value);
+		_putchar(a);
 	}
 	return (0);
 }
