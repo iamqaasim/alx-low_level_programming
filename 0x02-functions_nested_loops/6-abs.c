@@ -1,21 +1,12 @@
 #include "main.h"
-
 /**
- * _abs() - computes absolute value
- *
- * Return: 0 for success
+ * _abs - calculate the absolute value of the number from zero.
+ * @i: the integer to be converted.
+ * Return: absolute value of the input number.
  */
-
-int _abs(int a)
+int _abs(int i)
 {
-	if (a < 0)
-	{
-		a = a * -1;
-
-		return(a);
-	}
-	else
-	{
-		return(a);
-	}
+	if (i < 0)
+		i = i * -1;
+	return (i);
 }
