@@ -2,8 +2,9 @@
 
 /**
  * _islower - checks for lower case
- *
- * Return 1 if lower case 0 otherwise
+ * c: arguement for _islower
+ * 
+ * Return: 1 if lower case 0 otherwise
  */
 
 int _islower(int c)
