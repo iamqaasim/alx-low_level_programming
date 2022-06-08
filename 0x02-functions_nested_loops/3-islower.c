@@ -2,8 +2,8 @@
 
 /**
  * _islower - checks for lower case
- * c: arguement for _islower
- * 
+ * c - arguement for _islower
+ *
  * Return: 1 if lower case 0 otherwise
  */
 
