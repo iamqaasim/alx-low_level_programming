@@ -2,7 +2,7 @@
 
 /**
  * main - update pointer
- * @*n: pointers arguments
+ * @n: pointers arguments
  *
  * Return: 0 on success
  */
