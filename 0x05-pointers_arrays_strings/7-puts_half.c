@@ -10,26 +10,14 @@
 void puts_half(char *str)
 {
 	int i;
-	int count;
 
-	for (count = 0; *(str + count) != ('\0'); count++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 	}
-
-	int n = int ((count - 1) / 2);
-
-	if (count % 2 = 0)
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
-		for (i = count/2; str[i] != '\0'; i++)
-		{
-			_putchar(*(str + i));
-		}
+		_putchar(str[i]);
 	}
-	else 
-	{
-		for (i = n; str[i] != '\0'; i++)
-                {
-                        _putchar(*(str + i));
-                }
-	}
+	_putchar('\n');
 }
