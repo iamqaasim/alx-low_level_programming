@@ -1,8 +1,3 @@
-/*
- * File: 3-print_all.c
- * Auth: Tolulope Fakunle
- */
-
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
@@ -29,7 +24,7 @@ void print_char(va_list arg)
 /**
  * print_int - Prints an int.
  * @arg: A list of arguments pointing to
- *       the integer to be printed.
+ *       the integer to be printed. 
  */
 void print_int(va_list arg)
 {
